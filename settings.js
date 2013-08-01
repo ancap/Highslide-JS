@@ -2,6 +2,8 @@ hs.graphicsDir = '/extensions/Highslide/graphics/';
 hs.showCredits = false;
 hs.outlineType = null;
 hs.align = 'center';
+hs.allowSizeReduction = false;
+hs.allowMultipleInstances = false;
 hs.registerOverlay({
   html: '<div class="closebutton" onclick="return hs.close(this)" title="Закрыть"></div>',
 	position: 'top right',
